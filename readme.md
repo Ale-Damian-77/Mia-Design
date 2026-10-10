@@ -19,6 +19,10 @@ Librerías estandar HTML - CSS
 ├── tienda.html          # por hacer !
 └── README.md            # Documentación del trabajo. 
 
+## VERSION
+V1.0 Projecto estandar
+V1.1 Mejora responsive contacto.
+
 ##  Autor
 **Alejandro Santillán**.  
 📧 [Correo](santillanalejandro027@gmail.com)
