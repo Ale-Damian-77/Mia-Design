@@ -154,9 +154,13 @@ CONTACTO
 
 .contacto {
     background-color: rgba(228, 178, 205, 0.8);
-    padding: 50px;
-    max-width: 1000px; 
+    padding: 40px;
+    max-width: 800px; 
     margin: auto;
+}
+
+.contacto p {
+    margin-bottom: 20px;;
 }
 
 .bot-contacto {
@@ -286,7 +290,7 @@ SALUDO
 RESPONSIVE
 ===================
  */ 
-/* Responsive Hero */
+/* Responsive Hero 1200px*/
 @media(max-width: 1200px){
     .hero {
         padding: 0 60px;
@@ -297,8 +301,8 @@ RESPONSIVE
     }
 
 }
-
-@media(max-width: 450px){
+/* Responsive Hero 360px*/
+@media(max-width: 360px){
     .hero {
         height: 100vh;
         padding: 0 20px;
@@ -307,7 +311,7 @@ RESPONSIVE
     }
 
     .hero .hero-content {
-        margin-top: 50px;
+        margin-top: 60px;
         width: 60%;
         padding: 0px;
         align-items: center;
@@ -316,7 +320,47 @@ RESPONSIVE
 
     header {
         width: 100%;
-        height: 10%;
+        height: 8%;
         padding: 0%;
     }
+
+    .footer {
+        width: 100%;
+        height: 8%;
+        padding: 0%;
+    }
+}
+
+
+/* Responsive Contacto 1200px */
+@media(max-width: 1200px){
+    .contacto {
+        width: 80%;
+        padding: 40px;
+    }
+}
+
+/* Responsive Contacto */
+@media(max-width: 360px){
+    .contacto p {
+        top: 10px;
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .contacto {
+        width: 90%;
+        padding: 40px;
+        box-sizing: border-box;
+    }
+
+    .bot-contacto {
+        flex-direction: column;
+    }
+
+    .btn-volver {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 }
