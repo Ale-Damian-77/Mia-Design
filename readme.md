@@ -22,6 +22,7 @@ Librerías estandar HTML - CSS
 ## VERSION
 V1.0 Projecto estandar
 V1.1 Mejora responsive contacto.
+V1.2 Mejora responsive contacto.
 
 ##  Autor
 **Alejandro Santillán**.  

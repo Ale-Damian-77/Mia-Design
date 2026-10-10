@@ -422,9 +422,7 @@ SALUDO
 
 /* 
 ACTUALIZAR GIT
-git status - verifica el estado de los archivos en el repositorio.
 git add . - Añade los cambios al área de preparación.
-git commit -m "v1.1" - Crea un commit con un mensaje descriptivo.
-git push origin main - Envía los cambios al repositorio remoto en la rama principal (main
+git commit -m "V1.2" - Crea un commit con un mensaje descriptivo.
 git push origin main - Envía los cambios al repositorio remoto en la rama principal (main)
 */
