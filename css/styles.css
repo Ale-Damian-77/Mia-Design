@@ -285,11 +285,11 @@ SALUDO
 }
 
 
-/* 
-===================
-RESPONSIVE
-===================
- */ 
+
+/*===================
+        RESPONSIVE
+  =================== */ 
+
 /* Responsive Hero 1200px*/
 @media(max-width: 1200px){
     .hero {
@@ -299,20 +299,26 @@ RESPONSIVE
     .hero .hero-content {
         width: 60%;
     }
-
+/* Responsive Contacto 1200px */
+    .contacto {
+        width: 80%;
+        padding: 40px;
+    }
 }
-/* Responsive Hero 360px*/
-@media(max-width: 360px){
+
+/*---------------------------------------------*/
+
+/* Responsive Hero 450px*/
+@media(max-width: 450px){
     .hero {
-        height: 100vh;
-        padding: 0 20px;
+        height: 97vh;
+        padding: 20px;
         justify-content: center;
         background-position: center;
     }
 
     .hero .hero-content {
-        margin-top: 60px;
-        width: 60%;
+        width: 50%;
         padding: 0px;
         align-items: center;
         text-align: center;
@@ -324,24 +330,12 @@ RESPONSIVE
         padding: 0%;
     }
 
-    .footer {
+    footer {
         width: 100%;
-        height: 8%;
+        height: 100%;
         padding: 0%;
     }
-}
-
-
-/* Responsive Contacto 1200px */
-@media(max-width: 1200px){
-    .contacto {
-        width: 80%;
-        padding: 40px;
-    }
-}
-
-/* Responsive Contacto */
-@media(max-width: 360px){
+/* Responsive Contacto 450px */
     .contacto p {
         top: 10px;
         font-size: 1rem;
@@ -349,8 +343,8 @@ RESPONSIVE
     }
 
     .contacto {
-        width: 90%;
-        padding: 40px;
+        width: 80%;
+        padding: 60px;
         box-sizing: border-box;
     }
 
@@ -359,8 +353,78 @@ RESPONSIVE
     }
 
     .btn-volver {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
+
+
+/* Responsive 360px*/
+@media(max-width: 360px){
+    header {
+        width: 100%;
+        height: auto;
+    }
+
+    .navbar-container {
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+
+    .navbar li {
+        padding: 0 10px;
+    }
+
+    .hero {
+        height: 97vh;
+        padding: 20px;
+        justify-content: center;
+        background-position: center;
+    }
+
+    .hero .hero-content {
+        margin-top: 60px;
+        width: 90%;
+        padding: 0px;
+        align-items: center;
+        text-align: center;
+    }
+
+    footer {
+        width: 100%;
+        height: 100%;
+        padding: 0%;
+    }
+/* Responsive Contacto 360px */
+    .contacto p {
+        top: 10px;
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .contacto {
+        width: 80%;
+        padding: 25px;
+        box-sizing: border-box;
+    }
+
+    .bot-contacto {
+        flex-direction: column;
+    }
+
+    .btn-volver {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
+
+/* 
+ACTUALIZAR GIT
+git status - verifica el estado de los archivos en el repositorio.
+git add . - Añade los cambios al área de preparación.
+git commit -m "v1.1" - Crea un commit con un mensaje descriptivo.
+git push origin main - Envía los cambios al repositorio remoto en la rama principal (main
+git push origin main - Envía los cambios al repositorio remoto en la rama principal (main)
+*/
